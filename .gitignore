@@ -1,0 +1,35 @@
+# Compiled Lisp files
+*.fas
+*.lisp.asd.cache
+*.system.cache
+
+# SBCL core files
+sbcl.core.*
+
+# Quicklisp files
+quicklisp/local-projects/*
+.slime-scratch
+.rosrc
+
+# VS Code files
+.vscode/
+.history/
+
+# Temporary files and backups
+*~
+\#*\#
+*.bak
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Build directories (may need to be configured)
+build/
+_build/
+dist/
+
+# Other files you want to ignore
+# For example, files with personal settings
+# my-local-config.lisp
